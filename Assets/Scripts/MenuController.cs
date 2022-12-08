@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    
+   
     public static int index;
     
     void Start()
@@ -22,13 +22,13 @@ public class MenuController : MonoBehaviour
     public void onButton1()
     {
         index = 0;
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("AR");
     }
 
     public void onButton2()
     {
         index = 1;
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("AR");
     }
 
     
